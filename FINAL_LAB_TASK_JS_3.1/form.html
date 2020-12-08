@@ -5,55 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
 </head>
-<body>
-    <form action="">
-      
+<body>     
            <table border="1px solid black" cellspacing="0" cellpadding="0">
-                <tr><h2>Person Profile</h2></tr>
+             <form action="" onsubmit='return formvalidation()'>
+                <tr>
+                      <td colspan="2">
+                   <h1>Persone Profile</h1> 
+                </td>
                 <tr>
                     <td>Name: </td>
-                    <td><input type="text" name="name" id="">
+                    <td><input type="text" name="name" id="name">
                     </td>       
                 </tr>
                 <tr>
 
                     <td>Email: </td>
-                    <td><input type="text" name="email">
+                    <td><input type="email" name="email" id="email">
                     </td>
                 </tr>
                 <tr>
                     <td>Gender </td>
                     <td>
-                        <input type="radio" name="gender" id="" value="Male">Male
-                        <input type="radio" name="gender" id="" value="Female">Female
-                        <input type="radio" name="gender" id="" value="Other">Other
+                        <input type="radio" name="gender" id="gender" value="Male">Male
+                        <input type="radio" name="gender" id="gender1" value="Female">Female
+                        <input type="radio" name="gender" id="gender2" value="Other">Other
                    </td>
                 </tr>
                 <tr>
                     <td>Date of Birth </td>
-                    <td><input type="date" name="dob" >
+                    <td><input type="date" name="dob" id="dob" >
                     </td>
                 </tr>
                 <tr>
                     <td>Blood Group</td>
                     <td>
-                        <input type="radio" name="blood" id="" value="ops">O+
-                        <input type="radio" name="blood" id="" value="oneg">O-
-                        <input type="radio" name="blood" id="" value="Bpos">B+
-                        <input type="radio" name="blood" id="" value="b-">B-                                    <input type="radio" name="blood" id="" value="ab+">AB+
-                        <input type="radio" name="blood" id="" value="ab-">AB-
+                        <input type="radio" name="blood" id="blood" value="ops">O+
+                        <input type="radio" name="blood" id="blood1" value="oneg">O-
+                        <input type="radio" name="blood" id="blood2" value="Bpos">B+
+                        <input type="radio" name="blood" id="blood3" value="b-">B-                                    <input type="radio" name="blood" id="blood4" value="ab+">AB+
+                        <input type="radio" name="blood" id="blood5" value="ab-">AB-
                     </td>
 
                 </tr>
                 <tr>
                     <td>Degree</td>
                     <td>
-                        <input type="radio" name="dept" id="" value="EEE">EEE
-                        <input type="radio" name="dept" id="" value="COE">COE
-                        <input type="radio" name="dept" id="" value="CSE">CSE
-                        <input type="radio" name="dept" id="" value="SE">SE                                    
-                        <input type="radio" name="dept" id="" value="CIS">CIS
-                        <input type="radio" name="dept" id="" value="BBA">BBA
+                        <input type="radio" name="dept" id="dept" value="EEE">EEE
+                        <input type="radio" name="dept" id="dept1" value="COE">COE
+                        <input type="radio" name="dept" id="dept2" value="CSE">CSE
+                        <input type="radio" name="dept" id="dept3" value="SE">SE                                    
+                        <input type="radio" name="dept" id="dept4" value="CIS">CIS
+                        <input type="radio" name="dept" id="dept5" value="BBA">BBA
                     </td>
                 </tr>
                
@@ -73,6 +75,7 @@
                 </tr>
                 
             </table>
+             <script type="text/javascript" src="script.js"></script>
         
     </form>
 </body>
