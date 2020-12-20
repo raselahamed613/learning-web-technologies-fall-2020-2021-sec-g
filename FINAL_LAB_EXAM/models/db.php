@@ -3,7 +3,7 @@
 $location 	= 'localhost';
 $dbuser		= 'root';
 $dbpass		= '';
-$database	= 'final_xm'; 
+$database	= 'final_exam'; 
 
 function getConnection(){
     
